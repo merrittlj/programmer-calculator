@@ -2,7 +2,7 @@
 
 CC = gcc
 CFLAGS := -Wall -Wextra -g -Werror=missing-declarations -Werror=redundant-decls
-LFLAGS = -lncurses
+LFLAGS = -lncurses -ltinfo
 # OUTPUT := output
 SRC := src
 BUILDDIR := build
